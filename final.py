@@ -10,7 +10,7 @@ def partition(l, size):
     for i in range(0, len(l), size):
         yield list(islice(l, i, i + size))
 
-bot = telebot.TeleBot("2033099990:AAHM8yoxPpurnYJJRN2tJ6MJFpE473GhH-k")
+bot = telebot.TeleBot("")
 
 global admin_list
 admin_list=[]
